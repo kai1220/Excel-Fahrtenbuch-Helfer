@@ -1,4 +1,6 @@
 # Excel-Fahrtenbuch-Helfer
+# Anmerkung
+Dieses Tool stellt kein rechtlich verwendbares Fahrtenbuch dar, sondern dient nur zum Ermitteln von Strecken und Routenzusammenfassungen.
 VBA Skript zum Ausrechnen von Entfernungen und Streckenzusammenfassungen mit Hilfe der GoogleCloud.
 
 Mit Hilfe dieses Tools lassen sich nachträglich Einträge für das Fahrtenbuch erzeugen.
