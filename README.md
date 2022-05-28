@@ -15,7 +15,7 @@ Die Abfragen kosten grundsätzlich einen minimalen Betrag, jedoch hat man ein mo
 
 # Beschreibung
 Das Tool ermittelt über eine API zu Google Maps die Entfernung und eine Streckenzusammenfassung zwischen Start und Ziel.
-Die Adressen sollten sich möglichst präzise aus "<Strasse><Hausnummer>, <PLZ><Ort>" zusammensetzen.
+Die Adressen sollten sich möglichst präzise aus "Strasse Hausnummer, PLZ Ort" zusammensetzen.
 Die Verbindung zur API wird über 2 Funktionsaufrufe hergestellt.
 Konkret werden hier die Daten über die Kundennummern ermittelt.
 Man gibt also eine Kundennummer bei Start und eine Kundennummer bei Ziel ein.
@@ -28,10 +28,10 @@ GetDistance ermittelt dann die Entfernung und GetRouteSummary die Streckenzusamm
 ### Spalte C, Ziel
   Kundennummer des Zielort
 ### Spalte D, Distanz
-  =GetDistance(<Startadresse>,<Zieladresse>)
+  =GetDistance(Startadresse,Zieladresse)
   Das Tool benutzt die Daten aus den Spalten G und H der gleichen Zeile
 ### Spalte E, Route
-  =GetRouteSummary(<Startadresse>,<Zieladresse>)
+  =GetRouteSummary(Startadresse,Zieladresse)
   Das Tool benutzt die Daten aus den Spalten G und H der gleichen Zeile
 ### Spalte F
   ohne Funktion
@@ -44,7 +44,7 @@ GetDistance ermittelt dann die Entfernung und GetRouteSummary die Streckenzusamm
 ### Spalte J, Kundennummer
   Eindeutige Kundennummer, darf nur einmalig vergeben sein
 ### Spalte K, Adresse
-  Adresse der Form <Strasse><Hausnummer>, <PLZ><Ort> . Am Besten vorher über Google Maps ermitteln, dann ist man sicher...
+  Adresse der Form "Strasse Hausnummer, PLZ Ort" . Am Besten vorher über Google Maps ermitteln, dann ist man sicher...
 ### Spalte L, Name
   keine Funktion, dient nur der Übersicht oder persönlichen Zwecken
   
