@@ -21,34 +21,7 @@ Die Adressen sollten sich möglichst präzise aus "Strasse Hausnummer, PLZ Ort" 
 Die Verbindung zur API wird über 2 Funktionsaufrufe hergestellt.
 Konkret werden hier die Daten über die Kundennummern ermittelt.
 Man gibt also eine Kundennummer bei Start und eine Kundennummer bei Ziel ein.
-GetDistance ermittelt dann die Entfernung und GetRouteSummary die Streckenzusammenfassung
-
-### Spalte A, Datum
-  keine relevante Funktion, kann nach belieben befüllt werden
-### Spalte B, Start
-  Kundennummer des Startort
-### Spalte C, Ziel
-  Kundennummer des Zielort
-### Spalte D, Distanz
-  =GetDistance(Startadresse,Zieladresse)
-  Das Tool benutzt die Daten aus den Spalten G und H der gleichen Zeile
-### Spalte E, Route
-  =GetRouteSummary(Startadresse,Zieladresse)
-  Das Tool benutzt die Daten aus den Spalten G und H der gleichen Zeile
-### Spalte F
-  ohne Funktion
-### Spalte G, Startadresse
-  holt sich über einen S-Verweis aus Spalte K die passende Adresse zur Kundennummer in Spalte B
-### Spalte H, Startadresse
-  holt sich über einen S-Verweis aus Spalte K die passende Adresse zur Kundennummer in Spalte C
-### Spalte I
-  ohen Funktion
-### Spalte J, Kundennummer
-  Eindeutige Kundennummer, darf nur einmalig vergeben sein
-### Spalte K, Adresse
-  Adresse der Form "Strasse Hausnummer, PLZ Ort" . Am Besten vorher über Google Maps ermitteln, dann ist man sicher...
-### Spalte L, Name
-  keine Funktion, dient nur der Übersicht oder persönlichen Zwecken
+GetDistance ermittelt dann die Entfernung und GetRouteSummary die Streckenzusammenfassun
   
   
 # Verwendung
